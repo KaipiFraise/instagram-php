@@ -102,8 +102,10 @@ class HelperFactory
             'curl' => [
                 CURLOPT_IPRESOLVE => CURL_IPRESOLVE_V4,
             ],
+            'read_timeout' => 30,
             'stream' => false,
-            'expect' => ''
+            'expect' => '1000000',
+            'timeout' => 60
         ]);
     }
 
