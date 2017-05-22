@@ -99,8 +99,10 @@ class HelperFactory
     {
         return new Client([
             'base_uri' => $uri,
-            'debug' => true,
-            'force_ip_resolve' => 'v4'
+            'curl' => [
+                CURLOPT_IPRESOLVE => CURL_IPRESOLVE_V4,
+            ],
+            'stream' => false
         ]);
     }
 
