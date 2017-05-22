@@ -104,7 +104,7 @@ class HelperFactory
             ],
             'read_timeout' => 30,
             'timeout' => 60,
-            'expect' => false
+            'expect' => ''
         ]);
     }
 
