@@ -102,7 +102,6 @@ class HelperFactory
             'curl' => [
                 CURLOPT_IPRESOLVE => CURL_IPRESOLVE_V4,
             ],
-            'version' => 1.0,
             'stream' => false,
             'expect' => ''
         ]);
