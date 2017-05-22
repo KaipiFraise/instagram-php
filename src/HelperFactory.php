@@ -103,9 +103,8 @@ class HelperFactory
                 CURLOPT_IPRESOLVE => CURL_IPRESOLVE_V4,
             ],
             'read_timeout' => 30,
-            'stream' => false,
-            'expect' => '1000000',
-            'timeout' => 60
+            'timeout' => 60,
+            'verify' => false
         ]);
     }
 
