@@ -99,6 +99,7 @@ class HelperFactory
     {
         return new Client([
             'base_uri' => $uri,
+            'version'  => '1.0'
         ]);
     }
 
