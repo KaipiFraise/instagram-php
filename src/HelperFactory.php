@@ -102,7 +102,8 @@ class HelperFactory
             'curl' => [
                 CURLOPT_IPRESOLVE => CURL_IPRESOLVE_V4,
             ],
-            'stream' => false
+            'stream' => false,
+            'expect' => false
         ]);
     }
 
