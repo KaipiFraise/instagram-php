@@ -99,7 +99,9 @@ class HelperFactory
     {
         return new Client([
             'base_uri' => $uri,
-            'verify' => false
+            'curl' => [
+                CURLOPT_IPRESOLVE => CURL_IPRESOLVE_V4
+            ]
         ]);
     }
 
